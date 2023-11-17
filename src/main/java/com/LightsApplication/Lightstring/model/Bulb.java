@@ -1,4 +1,4 @@
-// Bulb.java
+package com.LightsApplication.Lightstring.model;
 
 public class Bulb {
     private String color;

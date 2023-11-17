@@ -1,12 +1,10 @@
-package Lights.controller;
+package com.LightsApplication.Lightstring.controller;
 
+import com.LightsApplication.Lightstring.model.Bulb;
+import com.LightsApplication.Lightstring.service.BulbService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
-// Import Bulb and BulbService
-import Lights.model.Bulb;
-import Lights.service.BulbService;
 
 @RestController
 @RequestMapping("/bulbs")
